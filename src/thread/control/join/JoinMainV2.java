@@ -22,6 +22,8 @@ public class JoinMainV2 {
     sleep(3000);
     log("main thread waked up");
 
+    log("task1.result = " + task1.result);
+    log("task2.result = " + task2.result);
     int sumAll = task1.result + task2.result;
     log("task1 + task2 = " + sumAll);
 
