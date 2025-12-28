@@ -1,4 +1,4 @@
-package thread.sync.lock;
+package thread.sync.locks;
 
 import static util.MyLogger.log;
 import static util.ThreadUtils.sleep;
